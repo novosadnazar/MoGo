@@ -6,125 +6,144 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/style.css">
     <title>MoGo</title>
   </head>
   <body>
     <header>
-      <a href="./index.html">MoGo</a>
+      <div class="container">
+      <a href="./index.html" class="header-ligi">MoGo</a>
       <nav>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">WORK</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
         </ul>
       </nav>
+    </div>
     </header>
     <main>
       <!-- секція герой -->
-      <section>
-        <h1>We work with</h1>
-        <h2>Amazing Services</h2>
-        <div class="dox-hero"></div>
+      <section class="hero">
+        <div class="container box">
+        <ul class="hero-list">
+          <li class="hero-item"><h1 class="hero-title">We work with</h1></li>
+          <li class="hero-item"><h2 class="hero-paragraph">Amazing Services</h2></li>
+          <li class="hero-item"><div class="dox-hero"></div></li>
+        </ul>
+      </div>
       </section>
       <!-- секція фото -->
-      <section>
-        <ul>
-          <li>
-            <img src="./images/alarm1.svg" alt="alarm" />
-            <h2>photography</h2>
-            <p>
+      <section class="photo">
+        <div class="container">
+        <ul class="photo-list">
+          <li class="photo-item">
+            <img src="./images/alarm1.svg" alt="alarm" class="photo-img" />
+            <h2 class="photo-title">photography</h2>
+            <p class="photo-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p> 
+          </li>
+          <li class="photo-item">
+            <img src="./images/bar-graph2.svg" alt="bar-graph" class="photo-img" />
+            <h2 class="photo-title">photography</h2>
+            <p class="photo-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <img src="./images/bar-graph2.svg" alt="bar-graph" />
-            <h2>photography</h2>
-            <p>
+          <li class="photo-item">
+            <img src="./images/display3.svg" alt="display" class="photo-img"/>
+            <h2 class="photo-title">photography</h2>
+            <p class="photo-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <img src="./images/display3.svg" alt="display" />
-            <h2>photography</h2>
-            <p>
+          <li class="photo-item">
+            <img src="./images/paper4.svg" alt="paper" class="photo-img" />
+            <h2 class="photo-title">photography</h2>
+            <p class="photo-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <img src="./images/paper4.svg" alt="paper" />
-            <h2>photography</h2>
-            <p>
+          <li class="photo-item">
+            <img src="./images/home5.svg" alt="home" class="photo-img" />
+            <h2 class="photo-title">photography</h2>
+            <p class="photo-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-          <li>
-            <img src="./images/home5.svg" alt="home" />
-            <h2>photography</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor.
-            </p>
-          </li>
-          <li>
+          <li class="photo-item">
             <img
               src="./images/digital-marketing6.svg"
-              alt="digital-marketing"
+              alt="digital-marketing" class="photo-img"
             />
-            <h2>photography</h2>
-            <p>
+            <h2 class="photo-title">photography</h2>
+            <p class="photo-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      секція команда
-      <section>
-        <h1>Who we are</h1>
-        <h2>Meet our team</h2>
-        <div class=""></div>
-        <p>
+      <!-- секція команда -->
+      <section class="team">
+        <div class="container">
+          <ul class="team-list">
+        <li class="team-item"><h1 class="team-title">Who we are</h1></li>
+        <li class="team-item"><h2 class="team-paragraph">Meet our team</h2></li>
+        <li class="team-item"><div class="team-box"></div></li>
+        <li class="team-item"><p class="team-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
-        </p>
+        </p></li>
+      </ul>
+      </div>
       </section>
       <!-- секція працівники -->
-      <section>
-        <ul>
-            <li>
-                <img src="./images/matthew1.jpg" alt="matthew">
-                <h2>Matthew Dix</h2>
-                <p>Graphic Design</p>
+      <section class="works">
+        <div class="container">
+        <ul class="works-list">
+            <li class="works-item">
+                <img src="./images/matthew1.jpg" alt="matthew" class="works-img">
+                <h2 class="works-title">Matthew Dix</h2>
+                <p class="work-text">Graphic Design</p>
             </li>
-            <li>
-                <img src="./images/christopherl2.jpg" alt="christopherl">
-                <h2>Christopher Campbell</h2>
-                <p>Branding/UX design</p>
+            <li class="works-item">
+                <img src="./images/christopherl2.jpg" alt="christopherl" class="works-img">
+                <h2 class="works-title">Christopher Campbell</h2>
+                <p class="work-text">Branding/UX design</p>
             </li>
-            <li>
-                <img src="./images/michael3.jpg" alt="michael">
-                <h2>Michael Fertig </h2>
-                <p>Developer</p>
+            <li class="works-item">
+                <img src="./images/michael3.jpg" alt="michael" class="works-img">
+                <h2 class="works-title">Michael Fertig </h2>
+                <p class="work-text">Developer</p>
             </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer>
-        <p>&#169;2016 MoGo free PSD template by Laaqiq</p>
-        <form>
-            <label for="inputField">Your Email...</label>
-            <input type="text" id="inputField" name="inputField">
-            <input type="submit" value="Subscribe">
+      <div class="container">
+      <address>
+        <p class="address-desc">&#169;2016 MoGo free PSD template by <span class="address-span">Laaqiq</span></p>
+        <form class="address-form">
+            <label for="inputField" class="address-label">Your Email...</label>
+            <input type="text" id="inputField" name="inputField" class="address-input1">
+            <input type="submit" value="Subscribe" class="address-input">
         </form>
+      </address>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,36 @@
+header {
+    padding-top: 17px;
+    padding-bottom: 12px;
+}
+
+header>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 55px;
+}
+
+.header-logo {
+width: 98px;
+height: 33px;
+color: var(--accent-color);
+font-size: 30px;
+font-weight: 700;
+line-height: 0.81;
+}
+
+
+.nav-link {
+color: var(--accent-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 0.81;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--div-color);
+}

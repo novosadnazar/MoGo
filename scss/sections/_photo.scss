@@ -1,0 +1,36 @@
+
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.photo-item {
+    display: flex;
+}
+
+.photo-img {
+ width: 37px;
+height: 37px;
+    margin-right: 20px;
+}
+
+
+
+.photo-title {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.82;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.photo-desc {
+    width: 274px;
+    color: var(--text-color-2);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+}
